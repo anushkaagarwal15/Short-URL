@@ -4,6 +4,8 @@ const createHttpError = require('http-errors')
 const mongoose = require('mongoose')
 const path = require('path')
 const ShortUrl = require('./models/url.model')
+const database = require('./database')
+
 
 const app = express()
 
